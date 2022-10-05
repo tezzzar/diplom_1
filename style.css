@@ -145,7 +145,7 @@ header {
 .section-1 .slider-text-block {
   display: flex;
   flex-direction: column;
-  padding: 162px 116px;
+  padding: 135px 116px;
   width: 59.6%;
 }
 .section-1 .slider-1 {
@@ -169,7 +169,7 @@ header {
   position: relative;
   /* margin-bottom: 120px; */
   /* right: 520px; */
-  top: -125px;
+  top: -181px;
   left: -526px;
 }
 .section-1 .slick-dots-fix li button:before {
@@ -225,4 +225,39 @@ header {
 
 .slider-text-block {
   position: relative;
+}
+
+.social {
+  position: relative;
+  top: -309px;
+  left: 1277px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.social a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+.social .twitter {
+  background-image: url(images/tw2.png);
+  background-size: cover;
+}
+.social .twitter:hover {
+  background-image: url(images/tw1.png);
+}
+.social .facebook {
+  background-image: url(images/fb2.png);
+  background-size: cover;
+}
+.social .facebook:hover {
+  background-image: url(images/fb1.png);
+}
+.social .linkedin {
+  background-image: url(images/lin2.png);
+  background-size: cover;
+}
+.social .linkedin:hover {
+  background-image: url(images/lin1.png);
 }/*# sourceMappingURL=style.css.map */
