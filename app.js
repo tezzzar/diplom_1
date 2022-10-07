@@ -30,11 +30,37 @@ $(".slider3").slick({
 $(".slider-dots .slider-dots__item").click(function () {
   var $this = $(this);
   let sliderDotsActive = document.querySelectorAll(".slider-dots__item");
+  $(".slider3").slick("slickGoTo", $this.data("index"));
+
   sliderDotsActive.forEach((item) => {
     if (item.classList.contains("active")) {
       item.classList.remove("active");
     }
-    $(".slider3").slick("slickGoTo", $this.data("index"));
-    this.classList.add("active");
   });
+  this.classList.add("active");
+  return $this;
 });
+
+const btnPrev = document.querySelector(".slider3 .slick-prev"),
+  btnNext = document.querySelector(".slider3 .slick-next");
+
+const showNext = () => {
+  const current = document.querySelector(".slider-dots__item.active");
+  const nextElem = current.nextElementSibling;
+  const first = document.querySelector(".slider-dots__item");
+  if (nextElem) {
+    current.classList.remove("active");
+    nextElem.classList.add("active");
+  } else current.classList.remove("active"), first.classList.add("active");
+};
+const showPrev = () => {
+  const current = document.querySelector(".slider-dots__item.active");
+  const prevElem = current.previousElementSibling;
+  const last = document.querySelector("#lastElement");
+  if (prevElem) {
+    current.classList.remove("active");
+    prevElem.classList.add("active");
+  } else current.classList.remove("active"), last.classList.add("active");
+};
+btnPrev.addEventListener("click", showPrev);
+btnNext.addEventListener("click", showNext);
