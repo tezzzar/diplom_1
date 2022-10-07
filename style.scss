@@ -494,3 +494,17 @@ header {
     }
   }
 }
+
+.info {
+  height: 376px;
+  padding: 40px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-image: url(images/form_banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  h2 {
+    text-align: left;
+  }
+}
