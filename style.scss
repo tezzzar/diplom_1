@@ -24,7 +24,7 @@ body {
 }
 
 [class*="section-"] {
-  padding-bottom: 55px;
+  margin: 55px auto;
 }
 
 .flex {
@@ -245,7 +245,7 @@ header {
     background-color: #ef7c00;
     padding: 10px 20px;
     border-radius: 4px;
-    border: 3px solid #ef7c00;
+    border: 1px solid #ef7c00;
     display: block;
     a {
       text-decoration: none;
@@ -254,7 +254,7 @@ header {
     &:hover {
       color: #ef7c00;
       background-color: rgba(255, 255, 255, 0);
-      border: 3px solid #ef7c00;
+      border: 1px solid #ef7c00;
       cursor: pointer;
       a {
         color: #ef7c00;
@@ -306,6 +306,9 @@ header {
 }
 
 .section-2 {
+  h2 {
+    margin-top: 0;
+  }
   z-index: 100;
   .row {
     display: flex;
@@ -338,7 +341,11 @@ header {
     }
   }
 }
-
+.slider2 {
+  .slick-arrow {
+    top: 140px;
+  }
+}
 .slider2,
 .slider3 {
   .slick-slide img {
@@ -365,7 +372,7 @@ header {
     cursor: pointer;
     background: transparent;
     color: transparent;
-    top: 50%;
+    // top: 50%;
     transform: translate(0, -50%);
     padding: 0;
     border: none;
@@ -424,6 +431,10 @@ header {
   }
 }
 
+// .slider3 {
+//   padding-left: 15px;
+// }
+
 .slider-dots {
   display: flex;
   flex-direction: row;
@@ -454,6 +465,31 @@ header {
       color: #fff;
       background-color: #ef7c00;
       border: 1px solid #ef7c00 !important;
+      cursor: pointer;
+    }
+  }
+}
+
+.section-3,
+.section-4 {
+  h2 {
+    margin-top: 100px;
+  }
+}
+
+.section-4 {
+  .button {
+    color: #ef7c00;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ef7c00;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: block;
+    margin: 35px auto;
+    &:hover {
+      background-color: #ef7c00;
+      color: #fff;
+      border: 1px solid #ef7c00;
       cursor: pointer;
     }
   }
