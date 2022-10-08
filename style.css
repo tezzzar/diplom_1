@@ -484,6 +484,7 @@ header {
 }
 
 .info {
+  margin-top: 80px;
   height: 376px;
   padding: 40px;
   border: 1px solid #fff;
@@ -491,8 +492,102 @@ header {
   background-image: url(images/form_banner.png);
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+}
+.info form {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.info form .info-input {
+  display: flex;
+  left: 492px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.info form .info-input span:nth-child(2) {
+  left: 216px;
+}
+.info form span {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-right: 1px solid rgba(0, 16, 61, 0.12);
+}
+.info form span img {
+  position: relative;
+  top: 2px;
+  left: 1px;
 }
 .info h2 {
   text-align: left;
+  margin: 0;
+}
+.info button {
+  background-color: #ef7c00;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid #ef7c00;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: block;
+}
+.info button:hover {
+  color: #ef7c00;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ef7c00;
+  cursor: pointer;
+}
+.info input,
+.info textarea {
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  border-radius: 4px;
+  font-family: "Montserrat";
+  color: rgb(0, 16, 61);
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 20px;
+}
+.info input::-moz-placeholder, .info textarea::-moz-placeholder {
+  line-height: 20px;
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 15px;
+}
+.info input:-ms-input-placeholder, .info textarea:-ms-input-placeholder {
+  line-height: 20px;
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 15px;
+}
+.info input::placeholder,
+.info textarea::placeholder {
+  line-height: 20px;
+  font-family: "Montserrat";
+  font-weight: 200;
+  font-size: 15px;
+}
+.info textarea {
+  width: 446px;
+  height: 80px;
+}
+.info input {
+  width: 218px;
+  height: 40px;
+  padding-left: 50px;
+}
+.info p {
+  display: inline-block;
+  max-width: 50%;
 }/*# sourceMappingURL=style.css.map */
