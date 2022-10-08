@@ -343,6 +343,9 @@ header {
 .slider2 .slick-arrow {
   top: 140px;
 }
+.slider2 .slick-dots {
+  bottom: -10px;
+}
 
 .slider2 .slick-slide img,
 .slider3 .slick-slide img {
@@ -476,7 +479,7 @@ header {
   padding: 10px 20px;
   border-radius: 4px;
   display: block;
-  margin: 35px auto;
+  margin: 40px auto;
 }
 .section-4 .button:hover,
 .section-6 .button:hover,
@@ -699,4 +702,65 @@ header {
 .news .news-text a p,
 .news .news-text a h3 {
   margin: 10px 0;
+}
+
+.section-7 {
+  margin-bottom: 0;
+}
+
+.section-8 {
+  margin: 0 auto;
+  font-style: normal;
+  width: 1366px;
+  background-color: rgba(0, 16, 61, 0.06);
+}
+.section-8 h2 {
+  padding: 40px 0;
+  font-style: normal;
+  margin: 0;
+}
+.section-8 .flexbox {
+  display: flex;
+}
+.section-8 .flexbox h3 {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: rgb(44, 45, 46) !important;
+}
+.section-8 .flexbox div > div {
+  max-width: 288px;
+  padding: 0 14px;
+}
+.section-8 .flexbox div > div :nth-child(1) {
+  font-size: 13px;
+  line-height: 13px;
+  color: rgb(145, 147, 153);
+  margin: 10px 0;
+}
+.section-8 .flexbox div > div :nth-child(2),
+.section-8 .flexbox div > div :nth-child(3) {
+  color: rgb(44, 45, 46);
+  font-size: 15px;
+  line-height: 20px;
+  margin: 5px 0;
+}
+.section-8 .flexbox :last-child {
+  border: none;
+}
+.section-8 .address-text {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(191, 193, 199);
+  margin-bottom: 40px;
+}
+.section-8 .map {
+  width: 100%;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1366px;
+  height: 403px;
+  background-color: rgba(0, 16, 61, 0.06);
 }/*# sourceMappingURL=style.css.map */

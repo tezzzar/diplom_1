@@ -345,6 +345,9 @@ header {
   .slick-arrow {
     top: 140px;
   }
+  .slick-dots {
+    bottom: -10px;
+  }
 }
 .slider2,
 .slider3 {
@@ -487,7 +490,7 @@ header {
     padding: 10px 20px;
     border-radius: 4px;
     display: block;
-    margin: 35px auto;
+    margin: 40px auto;
     &:hover {
       background-color: #ef7c00;
       color: #fff;
@@ -700,4 +703,64 @@ header {
       }
     }
   }
+}
+.section-7 {
+  margin-bottom: 0;
+}
+
+.section-8 {
+  margin: 0 auto;
+  font-style: normal;
+  width: 1366px;
+  background-color: rgba(0, 16, 61, 0.06);
+  h2 {
+    padding: 40px 0;
+    font-style: normal;
+    margin: 0;
+  }
+  .flexbox {
+    display: flex;
+    h3 {
+      font-weight: 500 !important;
+      font-size: 16px !important;
+      line-height: 24px !important;
+      color: rgba(44, 45, 46, 1) !important;
+    }
+    div > div {
+      max-width: 288px;
+      padding: 0 14px;
+      :nth-child(1) {
+        font-size: 13px;
+        line-height: 13px;
+        color: rgba(145, 147, 153, 1);
+        margin: 10px 0;
+      }
+      :nth-child(2),
+      :nth-child(3) {
+        color: rgba(44, 45, 46, 1);
+        font-size: 15px;
+        line-height: 20px;
+        margin: 5px 0;
+      }
+    }
+    :last-child {
+      border: none;
+    }
+  }
+  .address-text {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(191, 193, 199, 1);
+    margin-bottom: 40px;
+  }
+  .map {
+    width: 100%;
+  }
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1366px;
+  height: 403px;
+  background-color: rgba(0, 16, 61, 0.06);
 }
