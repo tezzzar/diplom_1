@@ -467,7 +467,9 @@ header {
   margin-top: 100px;
 }
 
-.section-4 .button {
+.section-4 .button,
+.section-6 .button,
+.section-7 .button {
   color: #ef7c00;
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid #ef7c00;
@@ -476,7 +478,9 @@ header {
   display: block;
   margin: 35px auto;
 }
-.section-4 .button:hover {
+.section-4 .button:hover,
+.section-6 .button:hover,
+.section-7 .button:hover {
   background-color: #ef7c00;
   color: #fff;
   border: 1px solid #ef7c00;
@@ -648,4 +652,51 @@ header {
 }
 .team .team-photo-5 {
   background-image: url(images/com5.png);
+}
+
+.news {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.news [class*=news-photo-] {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news [class*=news-photo-] a {
+  display: block;
+  width: 319px;
+  height: 203px;
+}
+.news .news-photo-1 {
+  background-image: url(images/news1.png);
+}
+.news .news-photo-2 {
+  background-image: url(images/news2.png);
+}
+.news .news-photo-3 {
+  background-image: url(images/news3.png);
+}
+.news .news-text {
+  padding: 15px 0;
+}
+.news .news-text a {
+  display: block;
+  text-decoration: none;
+}
+.news .news-text a p {
+  color: rgb(145, 147, 153);
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 400;
+}
+.news .news-text a h3 {
+  color: rgb(44, 45, 46);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.news .news-text a p,
+.news .news-text a h3 {
+  margin: 10px 0;
 }/*# sourceMappingURL=style.css.map */

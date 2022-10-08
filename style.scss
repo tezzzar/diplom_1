@@ -477,7 +477,9 @@ header {
   }
 }
 
-.section-4 {
+.section-4,
+.section-6,
+.section-7 {
   .button {
     color: #ef7c00;
     background-color: rgba(255, 255, 255, 0);
@@ -648,5 +650,54 @@ header {
   }
   .team-photo-5 {
     background-image: url(images/com5.png);
+  }
+}
+
+.news {
+  display: flex;
+  column-gap: 30px;
+  // :nth-child(1) {
+  //   width: 436px;
+  // }
+  [class*="news-photo-"] {
+    background-repeat: no-repeat;
+    background-size: cover;
+    a {
+      display: block;
+      width: 319px;
+      height: 203px;
+    }
+  }
+  .news-photo-1 {
+    background-image: url(images/news1.png);
+  }
+  .news-photo-2 {
+    background-image: url(images/news2.png);
+  }
+  .news-photo-3 {
+    background-image: url(images/news3.png);
+  }
+  .news-text {
+    padding: 15px 0;
+    a {
+      display: block;
+      text-decoration: none;
+      p {
+        color: rgba(145, 147, 153, 1);
+        font-size: 13px;
+        line-height: 13px;
+        font-weight: 400;
+      }
+      h3 {
+        color: rgba(44, 45, 46, 1);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      p,
+      h3 {
+        margin: 10px 0;
+      }
+    }
   }
 }
