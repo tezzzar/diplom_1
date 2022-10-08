@@ -588,3 +588,65 @@ header {
     max-width: 50%;
   }
 }
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .team-text {
+    h3,
+    p {
+      margin: 0;
+      text-align: center;
+      color: rgba(44, 45, 46, 1);
+      width: 203px;
+    }
+    p {
+      padding: 7px 0;
+      font-size: 13px;
+      line-height: 13px;
+      font-weight: 200;
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5) {
+        font-weight: 400;
+        padding: 2px 0;
+      }
+      &:nth-child(5) {
+        padding-top: 7px;
+      }
+      &:nth-child(2) {
+        padding-bottom: 15px;
+      }
+    }
+    h3 {
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 400;
+      padding-top: 15px;
+    }
+  }
+  [class*="team-photo-"] {
+    display: block;
+    width: 203px;
+    height: 203px;
+    border-radius: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .team-photo-1 {
+    background-image: url(images/com1.png);
+  }
+  .team-photo-2 {
+    background-image: url(images/com2.png);
+  }
+  .team-photo-3 {
+    background-image: url(images/com3.png);
+  }
+  .team-photo-4 {
+    background-image: url(images/com4.png);
+  }
+  .team-photo-5 {
+    background-image: url(images/com5.png);
+  }
+}

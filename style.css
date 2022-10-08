@@ -590,4 +590,62 @@ header {
 .info p {
   display: inline-block;
   max-width: 50%;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.team .team-text h3,
+.team .team-text p {
+  margin: 0;
+  text-align: center;
+  color: rgb(44, 45, 46);
+  width: 203px;
+}
+.team .team-text p {
+  padding: 7px 0;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 200;
+}
+.team .team-text p:nth-child(3), .team .team-text p:nth-child(4), .team .team-text p:nth-child(5) {
+  font-weight: 400;
+  padding: 2px 0;
+}
+.team .team-text p:nth-child(5) {
+  padding-top: 7px;
+}
+.team .team-text p:nth-child(2) {
+  padding-bottom: 15px;
+}
+.team .team-text h3 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+.team [class*=team-photo-] {
+  display: block;
+  width: 203px;
+  height: 203px;
+  border-radius: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.team .team-photo-1 {
+  background-image: url(images/com1.png);
+}
+.team .team-photo-2 {
+  background-image: url(images/com2.png);
+}
+.team .team-photo-3 {
+  background-image: url(images/com3.png);
+}
+.team .team-photo-4 {
+  background-image: url(images/com4.png);
+}
+.team .team-photo-5 {
+  background-image: url(images/com5.png);
 }/*# sourceMappingURL=style.css.map */
