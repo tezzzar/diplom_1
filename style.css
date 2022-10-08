@@ -487,12 +487,12 @@ header {
   margin-top: 80px;
   height: 376px;
   padding: 40px;
-  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 10px;
   background-image: url(images/form_banner.png);
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 20px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 20px 5px;
 }
 .info form {
   width: 50%;
