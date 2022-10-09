@@ -764,21 +764,17 @@ footer {
     justify-content: space-between;
     .position {
       position: relative;
-      left: 6px;
+      left: 7px;
     }
     .footer-social {
       display: flex;
       flex-direction: row;
-      column-gap: 15px;
+      column-gap: 10px;
       align-items: flex-end;
-      div {
-        width: 35px;
-        height: 35px;
-      }
       a {
         display: inline-block;
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
       }
       .twitter {
         background-image: url(images/tw2.png);
@@ -787,7 +783,6 @@ footer {
           background-image: url(images/tw1.png);
         }
       }
-
       .facebook {
         background-image: url(images/fb2.png);
         background-size: cover;
@@ -795,7 +790,6 @@ footer {
           background-image: url(images/fb1.png);
         }
       }
-
       .linkedin {
         background-image: url(images/lin2.png);
         background-size: cover;
@@ -831,7 +825,7 @@ footer {
         }
       }
       h3 {
-        font-weight: 500;
+        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         color: rgba(239, 124, 0, 1);

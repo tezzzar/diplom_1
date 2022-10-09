@@ -774,23 +774,19 @@ footer .footer-logo {
 }
 footer .footer-logo .position {
   position: relative;
-  left: 6px;
+  left: 7px;
 }
 footer .footer-logo .footer-social {
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
   align-items: flex-end;
-}
-footer .footer-logo .footer-social div {
-  width: 35px;
-  height: 35px;
 }
 footer .footer-logo .footer-social a {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
 }
 footer .footer-logo .footer-social .twitter {
   background-image: url(images/tw2.png);
@@ -842,7 +838,7 @@ footer .flexbox .footer-info a:hover {
   color: #ef7c00;
 }
 footer .flexbox .footer-info h3 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: rgb(239, 124, 0);
