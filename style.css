@@ -772,15 +772,20 @@ footer .footer-logo {
   flex-direction: row;
   justify-content: space-between;
 }
+footer .footer-logo .position {
+  position: relative;
+  left: 6px;
+}
 footer .footer-logo .footer-social {
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 24px;
-       column-gap: 24px;
-  align-content: center;
-  justify-content: center;
-  flex-wrap: nowrap;
-  align-items: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+  align-items: flex-end;
+}
+footer .footer-logo .footer-social div {
+  width: 35px;
+  height: 35px;
 }
 footer .footer-logo .footer-social a {
   display: inline-block;

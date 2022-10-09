@@ -762,14 +762,19 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    .position {
+      position: relative;
+      left: 6px;
+    }
     .footer-social {
       display: flex;
       flex-direction: row;
-      column-gap: 24px;
-      align-content: center;
-      justify-content: center;
-      flex-wrap: nowrap;
-      align-items: center;
+      column-gap: 15px;
+      align-items: flex-end;
+      div {
+        width: 35px;
+        height: 35px;
+      }
       a {
         display: inline-block;
         width: 35px;
