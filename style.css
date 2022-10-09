@@ -871,7 +871,7 @@ footer .copyright {
   display: inline-block;
   z-index: 100;
   position: fixed;
-  right: calc(100% - 100px);
+  left: calc(100% - 100px);
   bottom: 100px;
   background-image: url(images/arrow-top.png);
   background-repeat: no-repeat;
