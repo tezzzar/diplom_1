@@ -565,6 +565,7 @@ header {
   font-weight: 200;
   font-size: 15px;
   line-height: 20px;
+  caret-color: #ef7c00;
 }
 .info input::-moz-placeholder, .info textarea::-moz-placeholder {
   line-height: 20px;
